@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "tt-form": {
+      "description": "Torrow form schematic.",
+      "factory": "./torrow/index#ttForm",
+      "schema": "./torrow/schema.json"
+    }
+  }
+}
